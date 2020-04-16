@@ -1,0 +1,504 @@
+.container_3
+{
+    position: relative;
+    display: block;
+    overflow: auto;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.grid_1, .grid_2, .grid_3
+{
+    position: relative;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.grid_1
+{
+    width: 320px;
+    margin-right: 20px;
+}
+
+.grid_2
+{
+    width: 660px;
+    margin-right: 20px;
+}
+
+.grid_3
+{
+    width: 1000px;
+}
+
+.omega
+{
+    margin-right:  0;
+}
+
+header div:first-child
+{
+    background-color: #000;
+    padding: 30px 20px;
+}
+
+body
+{
+    background-color: #E8E7E7;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    margin: 0px;
+}
+
+#contenedor-principal
+{
+    background-color: #FCCC00;
+}
+
+#contenedor-pie
+{
+    position: relative;
+    display: block;
+    background-color: #000;
+    padding: 30px 0;
+
+}
+
+header #logo{
+    position: relative;
+    display: block;
+    background-image: url(../imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 280px;
+    height: 39px;
+    margin-bottom: 30px;
+    text-indent: 300px;
+    overflow: hidden;
+}
+
+#menu-principal
+{
+margin-bottom: 20px;
+}
+
+#menu-principal a
+{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    background-color: #0E0E0E;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: url(../imagenes/bullet.jpg);
+    background-repeat: no-repeat;
+    background-position: 350px center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu-principal a:hover
+{
+    color: #FCCC00;
+    background-position: 263px center;
+    background-color: #222222;
+}    
+
+#menu-contacto a
+{
+    position: relative;
+    display: block;
+    margin-bottom: 7px;
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 31px;
+    padding: 3px 0 3px 31px;
+    background-image: url(../imagenes/iconos-contacto.png);
+    background-repeat: no-repeat;
+}
+
+#facebook
+{
+    background-position: 0 0;
+}
+
+#facebook:hover
+{
+    background-position: 0 -20px;
+}
+
+#contacto
+{
+    background-position: 0 -40px;
+}
+
+#contacto:hover
+{
+    background-position: 0 -60px;
+}
+
+#menu-contacto a:last-child
+{
+    margin: 0;
+}
+
+header div:last-child
+{
+    padding: 90px 120px 0 120px
+}
+
+h1
+{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #000;
+}
+
+header p
+{
+    color: #0F0F0F;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#contenido
+{
+    background-color: #FFF;
+    padding-top: 30px;
+}
+
+.padding-izquierda
+{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.padding-derecha
+{
+    padding-right: 20px;
+}
+
+#links-articulos
+{
+    position: relative;
+    display: block;
+    margin: 20px;
+}
+
+#links-articulos a
+{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+#links-articulos a:hover
+{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    background: url(../imagenes/mas.png) no-repeat right center;
+    color: #000;
+    text-decoration: none;
+}
+
+.boton-negro
+{
+    position: relative;
+    display: inline-block;
+    background-color: #000;
+    color: #FCCC00;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.boton-negro:hover
+{
+    background-color: #222222;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.bloque
+{
+    display: block;
+}
+
+form
+{
+    position: relative;
+    display: block;
+}
+
+input[type="text"], input[type="password"]
+{
+   position: relative; 
+   display: block;
+   border: 1px solid #0F0F0F;
+   background-color: #FFF;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000;
+   font-size: 16px;
+   padding: 15px;
+   margin-bottom: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   outline: none;
+}
+
+.derecha
+{
+    text-align: right;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+#link-cliente
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    color: #323232;    
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button
+{
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #FCCC00;
+    padding: 15px 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:hover
+{
+    color: #000;
+    background-color: rgb(228, 186, 1);
+    cursor: pointer;
+}
+
+.entrada-proyecto
+{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+h2
+{
+    position: relative;
+    display: block;
+    font-size: 14px;
+    margin: 0 0 20px
+}
+
+.entrada-proyecto img
+{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 190px;
+    border: 3px solid #000;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+}
+
+.entrada-proyecto img:hover
+{
+    border-color: #FCCC00;
+}
+
+body p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.pleca-gris
+{
+    position: relative;
+    display: block;
+    padding: 30px 0;
+    background-color: #333;
+    color: #FFF;
+}
+
+.pleca-gris h3
+{
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #FCCC00;
+    margin: 0 0 20px;
+}
+
+.pleca-gris p
+{
+    margin: 0;
+}
+
+#contenedor-pie h3
+{
+    position: relative;
+    display: block;
+    color: #FFF;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+#contenedor-pie p
+{
+    position: relative;
+    display: block;
+    color: #868686;
+    margin: 0;
+}
+
+.datos-contacto
+{
+    margin-top: 10px;
+}
+
+.datos-contacto strong
+{
+    position: relative;
+    display: inline-block;
+    color: #FCCC00;
+    width: 120px;
+}
+
+.datos-contacto span
+{
+    color: #FFF;
+}
+
+#amigas
+{
+    position: relative;
+    display: block;
+    margin-top:10px;
+}
+
+#amigas a
+{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagenes/iconos-alianzas.png);
+    background-repeat: no-repeat;
+    text-indent: 100px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+#amigas #android
+{
+    background-position: 5px 0;
+}
+
+#amigas #android:hover
+{
+    background-position: 5px -50px;
+}
+
+#amigas #escudo
+{
+    background-position: -60px 0;
+}
+
+#amigas #escudo:hover
+{
+    background-position: -60px -50px;;
+}
+
+#amigas #natura
+{
+    background-position: -120px 0;
+}
+
+#amigas #natura:hover
+{
+    background-position: -120px -50px;;
+}
+
+/*Portafolio*/
+
+.links-imagenes img
+{
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 190px;
+	border: 3px solid #000;
+	box-sizing: border-box;
+}
+
+.links-imagenes p
+{
+	position: relative;
+	display: inline-block;
+	background-color: #000;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.links-imagenes a
+{
+	position: relative;
+	display: inline-block;
+	color: #000;
+	background-color: #FCCC00;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100px;
+	margin: 0;
+	font-size: 16px;
+}
+
+.links-imagenes a:hover
+{
+	background-color: #000;
+	color: #FCCC00;
+}
